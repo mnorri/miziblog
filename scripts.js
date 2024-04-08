@@ -16,6 +16,7 @@ const latestPosts = [
       link.addEventListener("click", function(event) {
         event.preventDefault();
         const postUrl = event.target.href;
+        console.error(postUrl);
         loadPostContent(postUrl);
       });
       listItem.appendChild(link);
