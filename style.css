@@ -43,13 +43,18 @@ p {
   font-family: 'NanumSquare';
   font-weight: 300;
   margin-bottom: 1.5cm;
+  line-height: 1.6em;
+  word-spacing: 0.14em;
+  letter-spacing: 0.11em;
 }
 
 image {
   max-width: 88%;
 }
 
-.Blue { color:rgb(22, 180, 93);
+.Blue { 
+  font-size: 1.35em;
+  color:rgb(22, 180, 93);
 
 }
 
@@ -66,4 +71,23 @@ image {
   position: fixed;
   top: 0;
   width: 1920px;
+}
+
+.title {
+  font-size: 3em;
+  margin-top: 70px;
+  font-style: italic;
+  text-align: center;
+}
+
+.small {
+  font-size: 0.8em;
+  color: #b8c0c3;
+}
+
+.insight
+{
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
