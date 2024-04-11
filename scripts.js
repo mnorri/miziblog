@@ -1,6 +1,6 @@
 // 최신 글 데이터
 const latestPosts = [
-  { title: "첫 번째 포스트", url: "post1.html" },
+  { title: "2024년 UX/UI 디자인 트렌드", url: "post1.html" },
   { title: "두 번째 포스트", url: "post2.html" },
   { title: "세 번째 포스트", url: "post3.html" }
 ];

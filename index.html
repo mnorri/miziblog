@@ -12,8 +12,8 @@
     <h1>미지 블로그</h1>
     <nav>
       <ul>
-        <li><a href="/">홈</a></li>
-        <li><a href="/about.html">소개</a></li>
+        <li><a href="index.html">홈</a></li>
+        <li><a href="about.html">소개</a></li>
       </ul>
     </nav>
   </header>
@@ -21,9 +21,18 @@
   <main>
     <section>
       <h2>Post</h2>
-      <ul id="post-list">
-        <!-- 여기에 최신 글 목록이 자동으로 추가될 예정입니다. -->
+      <div id="box" onclick="goToPostPage()">
+      <ul>
+        <li><a href="post1.html">2024년 UX/UI 디자인 트렌드</a></li>
       </ul>
+      </div>
+      <script>
+        function goToPostPage() {
+  // 게시글 화면으로 이동하는 코드 작성 또는 게시글을 동적으로 로드하는 코드 작성
+  // 예시: 게시글 화면으로 이동하는 경우
+  window.location.href = "post1.html"; // 사용자를 post1.html로 리다이렉트
+}
+      </script>
     </section>
   </main>
 
@@ -31,6 +40,5 @@
     <p>&copy; 2024 미지 블로그</p>
   </footer>
   
-  <script src="scripts.js"></script>
 </body>
 </html>
